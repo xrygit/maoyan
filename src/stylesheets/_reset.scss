@@ -1,0 +1,77 @@
+body,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+button,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+th,
+em,
+strong,
+b,
+address,
+cite {
+    font-style: normal;
+    font-weight: normal;
+}
+table {
+    font-size: inherit;
+}
+li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+input{
+    border: none;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;     
+}
+img,
+fieldset {
+    border: 0 none;
+}
+ins {
+    text-decoration: none;
+}
+html{background: #fff;}
+/*图片垂直对齐*/
+.valign{text-align:center;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+/*溢出隐藏出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/*万能清除法*/
+.clear{zoom:1;/*解决ie67的高度塌陷问题*/}
+.clear:before{content:"";display:table;}/*解决第一个子元素margin-top向上传递问题*/
+.clear:after{content:"";display:block;clear:both;}
+
+.l{float:left;}
+.r{float:right;}
