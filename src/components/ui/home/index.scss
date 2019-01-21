@@ -1,0 +1,40 @@
+.app-home-box{
+    header{
+        height: .5rem;
+        background: #e54847;
+        font: .18rem/.5rem "";
+        color: #fff;
+        text-align:center;
+    }
+    .topbar{
+        font-size: .15rem;
+        color:#999;       
+        height: .45rem;
+        border-bottom: .01rem solid #e6e6e6;
+        .city-entry{
+            width: .8rem;
+            margin: .15rem 0 0 .13rem;
+            .fa{
+                margin-left: .03rem;
+            }
+        }
+        ul{           
+            li{
+                float:left;    
+                font-weight: 700;          
+                a{
+                    display:block;
+                    height: .45rem;
+                    margin: 0 .1rem;
+                    line-height: .45rem;
+                    border-bottom:1.45px solid #ef4238;
+                }
+            }
+        }
+        .fa-search{
+            font-size:  .22rem;
+            color:#ef4328;
+            margin: .1rem .2rem 0 0;
+        }
+    }
+}

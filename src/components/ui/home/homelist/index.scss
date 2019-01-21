@@ -1,0 +1,67 @@
+.app-home-homelist-box{
+    margin-top: .1rem;
+    ul{
+        li{
+            width: 3.75rem;
+            height: 1.14rem;
+            a{
+                display:block;
+                width: 100%;
+                font-size: .14rem;
+                height: 100%;
+                .default-img{
+                    margin:.1rem .1rem;                   
+                    img{
+                        width: .64rem;
+                        height: .9rem;
+                    }
+                }
+                .movie-info{ 
+                    margin-top: .06rem;          
+                    width: 2.07rem;                      
+                    h3{
+                        font-size: .18rem;                        
+                        font-weight: 700;
+                    } 
+                    // span{
+                    //     background:#f03d37;
+                    //     display:block;                        
+                    // }  
+                    .detail{ 
+                        span{
+                            line-height: .29rem;
+                        }                       
+                        b{
+                            color:#faaf00;
+                            font-size: .15rem;
+                            font-weight: 700;
+                            font-style: normal;
+                        }
+                        p{
+                            color:#666 ;
+                            font-size: .13rem;                           
+                        }
+                        p:nth-of-type(1){
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            width: 2.07rem;
+                        }
+                    } 
+                }
+                .buyTickt{
+                    display:block;
+                    width: .47rem;
+                    height: .27rem;
+                    color:#fff;
+                    background:#f03d37;
+                    padding: .04rem .08rem;
+                    border-radius: .05rem;
+                    box-sizing: border-box;
+                    margin:.46rem .18rem;
+                }
+
+            }
+        }
+    }
+}

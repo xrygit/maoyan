@@ -1,0 +1,29 @@
+.app-appfoot-box{
+    height: .485rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;   
+    width: 3.75rem;   
+    ul{
+        display:flex; 
+        // justify-content: space-between;
+        // align-items: center;
+        li{
+            height: .485rem;
+            align-items: center;
+            width: 1.25rem;         
+            a{
+                display:block;
+                color: #999;
+                padding-left: .6rem;
+                .fa{
+                font-size: .25rem;
+                display:block;
+                }
+                span{font-size: .12rem; display:block;}            
+                
+            }
+        }
+    }
+} 
