@@ -7,7 +7,7 @@ import './utils/rem'
 import './stylesheets/main.scss'
 import {BrowserRouter as Router} from 'react-router-dom'
 
-ReactDOM.render(
+ReactDOM.render(    
     <Router>
           <App />
     </Router> 

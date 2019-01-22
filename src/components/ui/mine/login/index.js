@@ -3,17 +3,12 @@ import './index.scss'
 class Login extends Component{
     render(){
         return (
-            <div className='app-mine-box'>
-             <div className ='header'>
+           <div className = 'app-login-box'>
                 <div className='top'>
                     <i class="fa fa-cog" aria-hidden="true"></i>
+                 
                 </div> 
-                <div>
-                    <span>立即登录</span>
-
-                </div>
-            </div>
-            </div>
+           </div>
         )
     }
 }
