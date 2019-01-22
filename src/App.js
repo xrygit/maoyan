@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Home,Mine} from './components/ui'
-import {Route,Switch} from 'react-router-dom'
+import {Route,Switch,withRouter} from 'react-router-dom'
 import {AppFoot} from './components/commons'
-
+import Login from './components/ui/mine/login'
 class App extends Component {
   renderRoutes(){
    let { footNavs } = this.props;
@@ -22,6 +22,7 @@ class App extends Component {
             <Switch>
               {this.renderRoutes()}
             </Switch> 
+         
             <AppFoot/>       
       </div>
     );
@@ -40,8 +41,11 @@ App.defaultProps = {
       id:2,
       path:'/mine',
       component: Mine,
-      exact:true
+      child:{
+        path:'/mine/login',
+        component: Login,
+      }     
     }
   ]
 }
-export default App;
+export default withRouter(App);

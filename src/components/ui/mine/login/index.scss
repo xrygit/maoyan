@@ -1,0 +1,71 @@
+.app-login-box{
+    .top{
+        color:#EE6363;
+        font-size: .23rem;
+        padding:.2rem .1rem;
+        .fa-times{
+            font-size: .28rem;
+        }     
+    }
+    main{
+        padding:.5rem .6rem;
+        .ltitle{
+            font-size: .4rem;
+            color:#666;
+        }
+        form{
+            margin-top: .58rem;         
+            p{
+                width:2.42rem;   
+                height:.6rem;         
+                border-bottom: 1px solid #ccc;    
+                .fa{margin:0 .04rem;color:#666;}         
+                input{
+                    width:1.9rem;
+                    border:0;
+                    color:#ccc;
+                    line-height:.6rem;
+                    font-size: .18rem;
+                }
+                [type='text']{
+                    color:#ccc;
+                }
+            }
+            button{
+                width:2.42rem;
+                height:.4rem;
+                background:#EE6363;
+                color:#fff;
+                border:0;
+                font-size: .2rem;
+                border-radius: 5px;
+                margin-top: .4rem;
+                display: block;
+            }
+        }
+        p{
+            font-size:.16rem;           
+        }
+        .ycode{
+            color:#666;
+            margin-top:.3rem;
+        }
+        .login-bottom{
+            margin-top:.3rem;
+            p{
+                width:2.42rem;
+                color:#666;
+                font-size: .13rem;
+                margin-bottom:.3rem;
+                b{
+                    color:#EE6363;
+                }
+                img{
+                    margin:.04rem;
+                    width:.46rem;
+                    height:.4rem;
+                }
+            }
+        }
+    }
+}

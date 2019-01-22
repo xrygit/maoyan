@@ -56,7 +56,7 @@ AppFoot.defaultProps = {
             id:3,
             path:'/mine',
             title: '我的',
-            icon : 'user-o',          
+            icon : 'user-o',        
             exact :true
         }
     ]
