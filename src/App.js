@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Home,Mine} from './components/ui'
+import {Home,Mine,Film} from './components/ui'
 import {Route,Switch,withRouter} from 'react-router-dom'
 import {AppFoot} from './components/commons'
 import Login from './components/ui/mine/login'
@@ -45,6 +45,12 @@ App.defaultProps = {
         path:'/mine/login',
         component: Login,
       }     
+    },
+    {
+      id:3,
+      path:'/film',
+      component: Film,
+      exact:true
     }
   ]
 }

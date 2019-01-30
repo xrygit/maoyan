@@ -1,0 +1,40 @@
+.mine-login-Loginbytel-box{
+    form{
+        margin-top: .58rem;         
+        p{
+            width:2.42rem;   
+            height:.6rem;         
+            border-bottom: 1px solid #ccc;
+            color:#666;    
+            .fa{margin:0 .04rem;color:#666;}         
+            input{
+                width:1.9rem;
+                border:0;
+                color:#ccc;
+                line-height:.6rem;
+                font-size: .18rem;
+            }
+            [type='text']{
+                color:#ccc;
+            }
+            span{
+                font-size: .13rem;
+                line-height: .6rem;                
+            }
+        }
+        p:nth-of-type(2){
+            border:0;            
+        }
+        button{
+            width:2.42rem;
+            height:.4rem;
+            background:#EE6363;
+            color:#fff;
+            border:0;
+            font-size: .2rem;
+            border-radius: 5px;
+            margin-top: .4rem;
+            display: block;
+        }
+    }
+}
